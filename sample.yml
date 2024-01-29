@@ -1,0 +1,9 @@
+---
+#This is a test yml sample file
+- name: a test playbook
+  hosts: webservers
+  tasks:
+      - name: check connectivity
+        ping:
+      - name: just a touch
+        command: touch /tmp/123.txt

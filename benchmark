@@ -1,0 +1,13 @@
+Running 5s test @ http://node1/
+  2 threads and 6 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   115.86us   17.18us 434.00us   79.85%
+    Req/Sec    24.98k     0.90k   26.27k    83.33%
+  Latency Distribution
+     50%  111.00us
+     75%  121.00us
+     90%  141.00us
+     99%  175.00us
+  253512 requests in 5.10s, 108.54MB read
+Requests/sec:  49711.77
+Transfer/sec:     21.28MB
